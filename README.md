@@ -1,75 +1,63 @@
 <div align="center">
-  # 🌊 Danilo Guimaraes
-  
-  **Team Leader @ Bee2Solutions** | **Backend Engineer** | **Children's Literature Writer** | **Indie Folk Songwriter**
-  
-  *Building scalable systems by day, crafting stories and melodies by night* 🎵📚
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilo-guimaraes-webdeveloper/)
-</div>
 
----
-
-## 👨‍💻 About Me
-
-```ruby
-class Developer < Human
-  def initialize
-    @name = "Danilo Guimaraes"
-    @age = 21
-    @role = "Team Leader @ Bee2Solutions"
-    @experience_since = 18
-    @interests = ["Cachalots 🐋", "Children's Literature 📖", "Indie Folk 🎸"]
-  end
-  
-  def current_focus
-    ["Backend Architecture", "Database Optimization", "Team Leadership"]
-  end
-end
-```
-
-🐋 **Whale enthusiast** with a special fascination for cachalots (sperm whales) — the deep-diving giants of the ocean
-
-📚 **Children's literature writer** — bringing imagination to life through words
-
-🎵 **Indie folk songwriter** — creating melodies that tell stories (DM me if you'd like to hear some tunes!)
-
-💼 **2.5+ years in tech** — Building robust backend solutions since 18
-
----
-
-## 🛠️ Tech Stack
-
-### Languages & Frameworks
 ![Ruby](https://img.shields.io/badge/Ruby-CC342D?style=for-the-badge&logo=ruby&logoColor=white)
 ![Rails](https://img.shields.io/badge/Rails-CC0000?style=for-the-badge&logo=ruby-on-rails&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-005C84?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![VS Code](https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
 
-### Specializations
-- 🔧 **Backend Development** — Building scalable, maintainable server-side applications
-- 🗄️ **Database Management** — Optimization, design, and performance tuning
-- 👥 **Team Leadership** — Guiding developers and fostering collaborative environments
-
----
-
-## 🌟 What I'm Up To
-
-- 🚀 Leading engineering initiatives at Bee2Solutions
-- 🎯 Deepening expertise in database architecture and optimization
-- 📖 Writing stories that spark wonder in young minds
-- 🎸 Composing indie folk tracks between commits
-- 🐋 Learning everything I can about cachalots and marine life
-
----
-
-## 📫 Let's Connect!
-
-Whether you want to discuss backend architecture, collaborate on a project, talk about whales, or hear some indie folk — I'd love to connect!
-
-<div align="center">
-  
-  [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/danilo-guimaraes-webdeveloper/)
-  
-  *"In the depths of code and ocean, there's always something new to discover"* 🌊
-  
 </div>
+
+
+```ruby
+class Danilo
+  attr_reader :age, :role, :company, :years_in_tech
+  
+  def initialize
+    @age = 21
+    @role = "Software Engineering Team Leader"
+    @company = "Bee2Solutions"
+    @years_in_tech = 3
+    @started_at = 18
+  end
+  
+  def stack
+    {
+      languages: ["Ruby", "TypeScript"],
+      frameworks: ["Rails"],
+      focus: ["Backend Architecture", "Database Management"]
+    }
+  end
+  
+  def side_projects
+    [
+      "Writing children's literature",
+      "Composing indie folk songs",
+      "Studying cachalots and marine life"
+    ]
+  end
+  
+  def currently_working_on
+    [
+      "Leading backend teams at #{@company}",
+      "Optimizing database performance",
+      "Building scalable server architectures"
+    ]
+  end
+  
+  def fun_fact
+    "Cachalots (sperm whales) can dive over 2km deep and hold their breath for 90 minutes"
+  end
+  
+  def open_to
+    ["Backend opportunities", "Tech discussions", "Music collabs", "Whale facts"]
+  end
+end
+
+# => Let's connect!
+```

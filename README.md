@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="https://i.pinimg.com/originals/ec/e2/54/ece254153f51952fd92b9bc828d82951.gif" width="200">
-  
   # 🌊 Danilo Guimaraes
   
   **Team Leader @ Bee2Solutions** | **Backend Engineer** | **Children's Literature Writer** | **Indie Folk Songwriter**

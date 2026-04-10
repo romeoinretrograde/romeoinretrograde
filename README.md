@@ -15,11 +15,11 @@
 
 
 ```ruby
-class Danilo
+class romeoinretrograde
   attr_reader :age, :role, :company, :years_in_tech
   
   def initialize
-    @age = 21
+    @age = 22
     @role = "Software Engineering Team Leader"
     @company = "Bee2Solutions"
     @years_in_tech = 3
